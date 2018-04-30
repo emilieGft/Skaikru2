@@ -1,0 +1,20 @@
+<!-- double range -->
+<html>
+<head>
+	<link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+	<script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+	<script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+</head>
+<body>
+<div data-role="main" class="ui-content">
+                <form method="post">
+                    <div data-role="rangeslider">
+                        <label for="price-min">Beggin:</label>
+                        <input type="range" name="price-min" id="price-min" value="0" min="0" max="1000">
+                        <label for="price-max">End:</label>
+                        <input type="range" name="price-max" id="price-max" value="1000" min="0" max="1000">
+                    </div>
+                    <input type="submit" data-inline="true" value="Submit">
+                </form>
+            </div>
+</body>

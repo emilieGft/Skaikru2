@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <!-- Logo -->
+    <link rel="shortcut icon" href="logo.png">
+    <!-- CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <!-- Script -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+<header>
+    <nav id="main-nav">
+        <a href="index.html"> <img src="logo-titre.svg" id="logo"> </a>
+        <div id="menu">
+            <a href="html/login.html"> <img src="logo-person-black.png"> Login </a>
+            <a href="html/settings.html"> <img src="logo-settings-black.png"> Settings </a>
+        </div>
+    </nav>
+</header>
+
+<div id="main_container">
+    <!-- Tabs to refine the researche -->
+    <ul class="nav nav-tabs">
+        <li><a data-toggle="tab" href="#transparent" style="height:39.5px; background-color:white; border-bottom:solid white;"></a></li>
+        <li><a data-toggle="tab" href="#onglet1">Time</a></li>
+        <li><a data-toggle="tab" href="#onglet2">Feeling</a></li>
+        <li><a data-toggle="tab" href="#onglet3">Place</a></li>
+    </ul>
+
+    <!-- contained tabs -->
+    <div class="tab-content">
+		<div id="transparent" class="tab-pane fade in active">
+            <h3>Chose dte</h3>
+        </div>
+        <div id="onglet1" class="tab-pane fade">
+            <h3>Choose a date</h3>
+        </div>
+        <div id="onglet2" class="tab-pane fade">
+            <h3>Menu 1</h3>
+            <p>Some content in menu 1.</p>
+        </div>
+        <div id="onglet3" class="tab-pane fade">
+            <h3>Menu 2</h3>
+            <p>Some content in menu 2.</p>
+        </div>
+    </div>
+</div>
+
+<div id="photo">
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,83 @@
+
+/**** Main container ****/
+
+#main_container {
+    border: 1px solid black;
+    background-color: white;
+    margin-right: 200px;
+    margin-left: 200px;
+    margin-bottom: 10px;
+    padding: 10px 30px 5px 30px;
+}
+
+
+/**** navigation to refine the researche ****/
+
+.onglets a {
+    color: #48a822;
+    background-color: rgba(72, 168, 34, 0.25);
+    border : 3px solid #48a822; /*#9EA0A1*/
+    border-top-left-radius: 30%;
+    border-top-right-radius: 30%;
+    padding: 3px 3px 0 3px ;
+    text-decoration-line: none;
+}
+.onglets a:hover {
+    border-bottom : 3px solid #fff;
+     background : #fff;
+ }
+.block1 {
+    border: 3px solid #48a822;
+}
+
+
+/**** Second container ****/
+
+#second_container {
+    border: solid #48a822;
+    background-color: white;
+    margin-right: 200px;
+    margin-left: 200px;
+    margin-bottom: 10px;
+    padding: 5px 30px 5px 30px;
+}
+#second_container h1 {
+    text-align: center;
+}
+#second_container h2 {
+    margin-left: 5%;
+}
+#second_container h3 {
+    margin-left: 10%;
+}
+
+/*************************************************************
+ *************************************************************
+ *************************************************************/
+
+/**** navigation to refine the researche ****/
+
+.nav li a { /* onglets */
+    color: #48a822;
+    background-color: rgba(72, 168, 34, 0.25);
+    border : 3px solid #48a822; /*#9EA0A1*/
+    border-top-left-radius: 30%;
+    border-top-right-radius: 30%;
+    padding: 3px 3px 3px 3px ;
+    text-decoration-line: none;
+}
+.nav a.active { /* onglet actif */
+    border-bottom : 3px solid #fff;
+    background-color : #ffffff;
+}
+.nav a:hover {
+    border-bottom : 3px solid #fff;
+    background : #fff;
+}
+.tab-pane { /* contenue des onglets */
+    border: solid #48a822;
+    background-color: white;
+    margin-bottom: 10px;
+    padding: 5px 30px 5px 30px;
+
+}

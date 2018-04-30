@@ -1,0 +1,106 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, sans-serif;
+}
+
+/**** Menu ****/
+
+#main-nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    color: #48a822;
+    border-bottom: solid black;
+    border-top: solid black;
+    margin-bottom: 10px;
+}
+#menu {
+    padding-top: 25px;
+}
+#logo {
+    margin-left: 30px;
+}
+#main-nav img {
+    vertical-align: middle; /* align text and image*/
+    margin-right: 10px;
+}
+#main-nav a {
+    text-decoration: none;
+    margin-right: 30px;
+    color: inherit; /*remove the default color*/
+}
+#main-nav a:hover {
+    color: dodgerblue;
+}
+
+
+/********************************
+ ------ Page index/accueil ------
+ ********************************/
+
+    /**** Main container ****/
+
+#main_container {
+    height: auto;
+    width: auto;
+    margin: 10px 300px; /* (top&bottom) (left&right) */
+    font-family: Verdana, sans-serif;
+}
+
+.nav li a { /* onglets */
+    color: #48a822;
+    background-color: rgba(72, 168, 34, 0.25);
+    border : 2px solid #48a822; /*#9EA0A1*/
+    border-bottom-color: transparent;
+    padding: 7px 10px 7px 10px ;
+    margin-right: 1px;
+    margin-bottom: -2px;
+    text-decoration-line: none;
+}
+.nav li a:hover { /* survole de l'onglet */
+    background-color: rgba(251, 251, 251, 0.25);
+    border : 2px solid #48a822; /*#9EA0A1*/
+    border-bottom: solid white;
+}
+/* onglet actif */
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
+    background-color: rgba(251, 251, 251, 0.25);
+    border : 2px solid #48a822; /*#9EA0A1*/
+    border-bottom: solid white;
+}
+.nav-tabs { /* correspond au ul */
+    border-bottom: none;
+}
+.tab-content { /* contenue des onglets */
+    background-color: white;
+    padding: 5px 30px 5px 30px;
+    border : 2px solid #48a822;
+    animation: fadeEffect 1s;
+}
+#transparent {
+	/*display: none;*/
+}
+
+
+/********************************
+ ---------- Page Login ----------
+ ********************************/
+
+
+    /**** Formulaire ****/
+#form_login form {
+    margin: 100px 500px 10px 500px;
+    border: 2px solid #48a822;
+}
+.form-group {
+    margin: 70px 100px 70px 100px;
+}
+.checkbox {
+    text-align: center;
+    margin-bottom: 25px;
+}
+.btn {
+    margin-left: 230px;
+    margin-bottom: 25px;
+}
